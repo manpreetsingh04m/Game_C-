@@ -16,7 +16,6 @@ int main() {
         cout << "Enter your guess (between 1 and 100): ";
         cin >> guess;
         attempts++;
-
         if (guess == secretNumber) {
             cout << "Congratulations! You guessed the number in " << attempts << " attempts." << endl;
         } else if (guess < secretNumber) {
